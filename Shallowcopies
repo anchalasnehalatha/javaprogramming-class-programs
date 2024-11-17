@@ -1,16 +1,18 @@
 package com.jspiders.Introduction;
-class Player{
-	String name="Dhoni";
+class Laptop{
+	String wallpaper="Deepika";
 }
-public class mainclass2 {
-public static void main(String[] args) {
-Player p1=new Player();
-Player p2=new Player();
-System.out.println(p1.name);
-System.out.println(p2.name);
-p1.name="kohli";
-System.out.println(p1.name);
-System.out.println(p2.name);
 
-}
+public class mainclass3 {
+	public static void main(String[] args) {
+		Laptop l1=new Laptop();
+		Laptop l2=l1;
+		System.out.println(l1.wallpaper);
+		System.out.println(l1.wallpaper);
+		l1.wallpaper="Alia";
+		System.out.println(l1.wallpaper);
+		System.out.println(l1.wallpaper);
+		
+	}
+
 }

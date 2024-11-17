@@ -1,0 +1,16 @@
+package com.jspiders.constructors;
+class Alpha{
+	int x;
+	Alpha(){
+	System.out.println("Alpha() executing");
+	x=45;
+}
+}
+
+public class mainclass2 {
+	public static void main(String[] args) {
+		Alpha ref=new Alpha();
+		System.out.println(ref.x);
+	}
+
+}
